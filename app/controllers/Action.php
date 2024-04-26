@@ -41,6 +41,18 @@ class Action extends Controller
     $this->view('Error');
   }
 
+  /**
+   * This function index checks if user login or not and redirect to home or login.
+   *
+   * @param  mixed $para_meter1
+   *   Url data.
+   * @param  mixed $para_meter2
+   *   Url data.
+   * @param  mixed $para_meter3
+   *   Url data.
+   *
+   * @return void
+   */
   public function update($para_meter1 = '', $para_meter2 = '', $para_meter3 = ''): void
   {
     if (is_loggedin()) {
