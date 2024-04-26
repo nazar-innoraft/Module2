@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(rgb(90, 225, 57), rgb(76, 36, 236));
+}
+
+.form-heading {
+  text-align: center;
+  margin: 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(62, 13, 13);
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 4px wheat;
+  padding: 20px;
+}
+
+form {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+
+.white {
+  color: white;
+  font-weight: 700;
+}
+
+input,
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  outline: none;
+  padding: 20px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+#submit {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 30px;
+  /* text-shadow: 2px 2px #ffffff; */
+}
+
+.success-message {
+  color: green;
+  margin-top: 5px;
+  font-size: 30px;
+  /* text-shadow: 2px 2px #ffffff; */
+
+}
+
+#login-signup-link {
+  margin: 15px;
+  color: white;
+}
+
+#pass {
+  display: flex;
+  justify-content: space-between;
+}
+
+#password {
+  width: 85%;
+}
+
+.eye {
+  width: 35px;
+  margin: 5px;
+}
+
+.eye-slash {
+  display: none;
+}
+
+a {
+  display: block;
+  padding: 5px 7px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 3px;
+}
+
+a:hover {
+  background-color: aqua;
+}
+

@@ -1,0 +1,42 @@
+
+.profile-view {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  background:rgba(52, 31, 173, 1);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  color: white;
+
+  h2 {
+    font-size: 40px;
+    color: white;
+  }
+
+  hr {
+    height: 3px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .card {
+    margin-top: 20px;
+
+    img {
+      width: 200px;
+      border-radius: 50%;
+    }
+
+    p {
+      /* text-align: left; */
+      font-size: 20px;
+      font-weight: 500;
+
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
