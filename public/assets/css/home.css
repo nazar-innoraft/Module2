@@ -1,0 +1,15 @@
+.stocks {
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgb(246, 230, 194);
+
+  table {
+    margin: auto;
+    font-size: 20px;
+  }
+  table, th, tr, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 10px;
+  }
+}

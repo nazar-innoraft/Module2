@@ -1,0 +1,24 @@
+{
+  "name": "nazar/social.com",
+  "autoload": {
+    "psr-4": {
+      "Nazar\\SocialCom\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "nazar-innoraft",
+      "email": "nazar.ali@innoraft.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.9",
+    "ext-curl": "*",
+    "google/apiclient": "^2.15"
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/runtime": false
+    }
+  }
+}
