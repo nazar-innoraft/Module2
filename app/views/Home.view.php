@@ -70,7 +70,6 @@
         </tbody>
       </table>
     </div>
-    <?php echo var_dump($_SESSION) . '/' . $row['email'] ?>
   </main>
 </body>
 
